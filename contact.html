@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactez-moi</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+  <!-- Section principale -->
+  <main>
+    <header>
+      <h1 class="h1">Contactez-moi</h1>
+    </header>
+
+    <!-- Formulaire de contact -->
+    <section class="contact-form">
+      <h2 class="h2">Envoyez-moi un message</h2>
+      <form action="#" method="POST" class="form">
+        <!-- Champ pour le nom complet -->
+        <div class="input-wrapper">
+          <label for="fullname">Nom complet</label>
+          <input type="text" id="fullname" name="fullname" class="form-input" placeholder="Votre nom complet" required>
+        </div>
+
+        <!-- Champ pour l'email -->
+        <div class="input-wrapper">
+          <label for="email">Adresse email</label>
+          <input type="email" id="email" name="email" class="form-input" placeholder="Votre adresse email" required>
+        </div>
+
+        <!-- Champ pour le message -->
+        <div class="input-wrapper">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="form-input" placeholder="Votre message" rows="5" required></textarea>
+        </div>
+
+        <!-- Bouton d'envoi -->
+        <button type="submit" class="form-btn">
+          <ion-icon name="paper-plane"></ion-icon>
+          <span>Envoyer</span>
+        </button>
+      </form>
+    </section>
+
+    <!-- Lien pour revenir à la page d'accueil -->
+    <footer>
+      <a href="index.html">Retour à l'accueil</a>
+    </footer>
+  </main>
+
+  <!-- Lien vers les icônes Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

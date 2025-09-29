@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mes Compétences - Portfolio BTS SIO</title>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="competences.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="/images/images/bbpng.webp" alt="Bourgoin Ralph" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Bourgoin Ralph">Bourgoin Ralph</h1>
+          <p class="title">developer web</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:bourgoinralph4@gmail.com" class="contact-link">bourgoinralph4@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+33631695251" class="contact-link">0631695251</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2004-08-11">11 août 2004</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>PARIS, 75019</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Présentation</a>
+          </li>
+          <li class="navbar-item">
+            <a href="expérience.html" class="navbar-link">Expérience</a>
+          </li>
+          <li class="navbar-item">
+            <a href="projet.html" class="navbar-link">Projets</a>
+          </li>
+          <li class="navbar-item">
+            <a href="competences.html" class="navbar-link active">Compétence</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">Mes Compétences</h2>
+        </header>
+
+        <section class="skills-section">
+          <!-- Développement Web -->
+          <div class="skill-card" data-animate>
+            <h3>💻 Développement Web</h3>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>HTML/CSS</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>JavaScript</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>React</span>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="70"></div>
+              </div>
+            </div>
+            <div class="tech-tags">
+              <span class="tech-tag">Bootstrap</span>
+              <span class="tech-tag">Responsive Design</span>
+              <span class="tech-tag">Figma</span>
+            </div>
+          </div>
+
+          <!-- Programmation -->
+          <div class="skill-card" data-animate>
+            <h3>⚙️ Programmation</h3>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Python</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>PHP</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Java</span>
+                <span class="skill-percentage">65%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="65"></div>
+              </div>
+            </div>
+            <div class="tech-tags">
+              <span class="tech-tag">POO</span>
+              <span class="tech-tag">Algorithmes</span>
+              <span class="tech-tag">Design Patterns</span>
+            </div>
+          </div>
+
+          <!-- Bases de données -->
+          <div class="skill-card" data-animate>
+            <h3>🗄️ Bases de données</h3>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>MySQL</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>PostgreSQL</span>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>MongoDB</span>
+                <span class="skill-percentage">60%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="60"></div>
+              </div>
+            </div>
+            <div class="tech-tags">
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">NoSQL</span>
+              <span class="tech-tag">Modélisation</span>
+            </div>
+          </div>
+
+          <!-- Outils et méthodologies -->
+          <div class="skill-card" data-animate>
+            <h3>🛠️ Outils & Méthodologies</h3>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Git/GitHub</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Méthodes Agiles</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="75"></div>
+              </div>
+            </div>
+            <div class="tech-tags">
+              <span class="tech-tag">Scrum</span>
+              <span class="tech-tag">Kanban</span>
+              <span class="tech-tag">CI/CD</span>
+              <span class="tech-tag">VS Code</span>
+            </div>
+          </div>
+
+          <!-- Administration réseau -->
+          <div class="skill-card" data-animate>
+            <h3>🌐 Administration Réseau</h3>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Configuration Serveurs</span>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Protocoles Réseau</span>
+                <span class="skill-percentage">65%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-progress="65"></div>
+              </div>
+            </div>
+            <div class="tech-tags">
+              <span class="tech-tag">Linux</span>
+              <span class="tech-tag">Windows Server</span>
+              <span class="tech-tag">Sécurité</span>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <a href="index.html">← Retour à l'accueil</a>
+        </footer>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script>
+    // Animation des barres de progression au chargement
+    document.addEventListener('DOMContentLoaded', function() {
+      const skillBars = document.querySelectorAll('.skill-bar-fill');
+      const skillCards = document.querySelectorAll('[data-animate]');
+      
+      // Observer pour détecter quand les éléments entrent dans la vue
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            entry.target.style.animationDelay = `${index * 0.1}s`;
+            entry.target.classList.add('animate-in');
+            
+            // Animer les barres de progression dans cette carte
+            const bars = entry.target.querySelectorAll('.skill-bar-fill');
+            bars.forEach((bar, barIndex) => {
+              setTimeout(() => {
+                const progress = bar.getAttribute('data-progress');
+                bar.style.width = progress + '%';
+              }, (barIndex * 150) + (index * 100));
+            });
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      skillCards.forEach(card => observer.observe(card));
+    });
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
